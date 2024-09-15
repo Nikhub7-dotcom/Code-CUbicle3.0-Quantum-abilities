@@ -1,0 +1,39 @@
+.content img{
+    display: flex;
+    padding-bottom: 1%;
+}
+
+.resize{
+    width: 250px;
+    height: 200px;
+    margin: 0 100px;
+}
+.content{
+    color: white;
+    width: 100%;
+    position: absolute;
+    margin: 30px 80px;
+    font-size: large;
+    flex-wrap: wrap;
+    overflow: auto;
+    max-height: 70vh;
+    
+}
+.content h1{
+    color: blue;
+    padding-bottom: 1%;
+}
+.content h3{
+    color: blue;
+}
+.content p{
+    padding: 20px 0;
+}
+.content ul li{
+    padding: 15px 0;
+}
+.footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,213 @@
+*{
+    box-sizing:border-box;
+
+    margin:0%;
+
+    padding:0%;
+    
+    
+   
+    
+  }
+
+.formpage{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    display:inline-block;
+    border:2px solid black;
+    background-color:rgba(29, 29, 29, 0.351);
+    color:white;
+    padding:10px;
+    padding-top:20px;
+    margin-left:550px;
+    margin-top:120px;
+}
+.formpage h1{
+    padding-left:2px;
+    border-bottom: 3px solid black;
+    margin:3px;
+    /* padding-right:10px; */
+    
+    
+
+}
+.cubg1{
+    /* height:700px;
+    width:auto;
+    
+
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./sih/WhatsApp\ Image\ 2024-09-11\ at\ 07.22.23_365789ee.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; */
+
+
+    
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+
+input[type="text"]{
+    background-color:rgba(200, 200, 200, 0.422);
+}
+textarea[name="msg"]{
+    background-color:rgb(200, 200, 200,0.422) ;
+}
+
+/* input[type="submit"]{
+   margin-top: 10px;
+    margin-left: 200px;
+    padding:5px
+} */
+
+     /* submit css start */
+
+     body{
+        /* background: #f4f4f4; */
+        height: 100vh;
+      }
+      
+      .wrapper{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+      }
+      
+      button{
+        font-family: 'Ubuntu', sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       
+        width: 170px;
+        height: 40px;
+        line-height: 1;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        border: 3px solid #090819;
+        /* background: #fff; */
+        color: #05051d;
+        border-radius: 40px;
+        cursor: pointer;
+        overflow: hidden;
+        transition: all .35s;
+      }
+      
+      button:hover{
+        background: #02010e;
+        color: #fff;
+      }
+      
+      button span{
+        opacity: 1;
+        visibility: visible;
+        transition: all .35s;
+      }
+      
+      .success{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        border-radius: 50%;
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .35s;
+      }
+      
+      .success svg{
+        width: 20px;
+        height: 20px;
+        fill: yellowgreen;
+        transform-origin: 50% 50%;
+        transform: translateY(-50%) rotate(0deg) scale(0);
+        transition: all .35s;
+      }
+      
+      button.is_active{
+        width: 40px;
+        height: 40px;
+      }
+      
+      button.is_active .success{
+        opacity: 1;
+        visibility: visible;
+      }
+      
+      button.is_active .success svg{
+        margin-top: 50%;
+        transform: translateY(-50%) rotate(720deg) scale(1);
+      }
+      
+      button.is_active span{
+        opacity: 0;
+        visibility: hidden;
+      }
+
+
+     /* submit css stop */
+
+
+
+.cubg1 a{
+    display:block;
+    font-size: 25px;
+    position:absolute;
+    top:10px;
+    left:70px;
+    color:rgb(40, 16, 40);
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight:500;
+    /* border-bottom:2px solid black; */
+    width: 1500px;
+    /* background-color: rgba(6, 15, 15, 0.242); */
+    /* border-top-width: 20px; */
+    margin-top:0%;
+    color:rgb(207, 207, 207);
+   
+}
+
+.navbar2{
+    position:absolute;
+    top:20px;
+    right:60px;
+    font-size: 20px;
+}
+.navbar2 a{
+color:rgb(220, 60, 204);;
+padding:20px;
+text-decoration: none;
+font-family: "Poppins", sans-serif;
+font-size:20px;
+word-spacing: 2px;
+color:rgb(234, 231, 231)
+
+
+
+}
+
+/* \* img[src="./images/logo/phone whitelogo.png"]{ 
+    height:20px;
+    
+    
+    padding: 10px;
+    margin-right:8px;
+    margin-bottom: 2px;
+}  */
+
+/* .information .location,img{
+    display:inline;
+} */

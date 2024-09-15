@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 420px;
+    background:  transparent;
+    color: #fff;
+}
+.container h1{
+    font-size: bold;
+    text-align: center;
+}
+.container .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid blue;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.container .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: grey;
+    margin-right: 3px;
+}
+.remember-forgot label input:hover{
+    accent-color: #fff;
+}
+.remember-forgot a{
+    color: grey;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.container .btn{
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    color: grey;
+    border: blue;
+    outline: blue;
+    border-radius: 45px;
+    font-size: large;
+    font: bold;
+
+}
+.container .btn:hover{
+    font-size: larger;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: blue;
+}
+.container .register{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.register p{
+    color: #fff;
+    font-weight: 600;
+}
+.register a{
+    color: grey;
+    font-weight: 600;
+    text-decoration: none;
+}
+.register a:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}

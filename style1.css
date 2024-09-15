@@ -1,0 +1,41 @@
+.disabilities{
+    color:white;
+}
+.disabilities h1{
+    margin: 0 80px;
+    font-weight: bold;
+}
+.cardcontainer {
+    margin: 30px 83px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+.card{
+    margin: 50px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    transition: all 0.9s;
+    font-weight: bold;
+
+}
+.card:hover{
+    background-color: rgb(71, 68, 68);
+    cursor: pointer;
+ }
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card>* {
+    padding-top: 10px;
+}
+
